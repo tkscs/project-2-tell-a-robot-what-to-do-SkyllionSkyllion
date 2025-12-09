@@ -54,6 +54,7 @@ def start():
 
 print(robot.left_sonar())
 print(robot.right_sonar())
+
 start()
 
 print(robot.left_sonar())
