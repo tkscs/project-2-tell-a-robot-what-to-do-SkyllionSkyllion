@@ -1,5 +1,5 @@
 from simulator import robot, FORWARD, BACKWARD, STOP
-
+import random
 
 
 # TODO: Write your code here!
@@ -28,11 +28,11 @@ def go():
         LEFT_SENSOR = robot.left_sonar()
         RIGHT_SENSOR = robot.right_sonar()
         if LEFT_SENSOR < RIGHT_SENSOR:
-            robot.motors(FORWARD, FORWARD, (LEFT_SENSOR/6)-1.5)
-            robot.motors(BACKWARD, FORWARD, 2)
+            robot.motors(FORWARD, FORWARD, (LEFT_SENSOR/6)-2)
+            robot.motors(BACKWARD, FORWARD, random.uniform(1.5, 3))
         elif RIGHT_SENSOR < LEFT_SENSOR:
-            robot.motors(FORWARD, FORWARD, (RIGHT_SENSOR/6)-1.5)
-            robot.motors(FORWARD, BACKWARD, 2)
+            robot.motors(FORWARD, FORWARD, (RIGHT_SENSOR/6)-2)
+            robot.motors(FORWARD, BACKWARD, random.uniform(1.5, 3))
 
         else:
             robot.motors(BACKWARD, BACKWARD, .5)
