@@ -35,7 +35,7 @@ def draw_square():
     start()
 
 def question():
-    answer = input("Would you like to: 1. Continue, 2. Stop and go back to menu, 3. Quit the robot entirely")
+    answer = int(input("Would you like to: 1. Continue, 2. Stop and go back to menu, 3. Quit the robot entirely"))
     if answer == 1:
         go()
     elif answer ==2:
