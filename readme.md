@@ -119,3 +119,4 @@ Blank x4, pin 12 (left speed/white), blank, pin 1 (left forward/blue), pin 7 (le
 6. Yellow (motor wire)
 7. Orange (from Pi pin 23 - backward)
 8. White (from Pi pin 18 - speed control)
+![alt text](image.png)
