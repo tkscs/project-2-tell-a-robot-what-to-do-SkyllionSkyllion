@@ -1,7 +1,7 @@
 See github for more detailed comments:
 https://github.com/tkscs/project-2-tell-a-robot-what-to-do-SkyllionSkyllion/pull/1#pullrequestreview-3576708188
 
-Overall Rough Draft Score: 50 / 50
+Overall Rough Draft Score: 79 / 80
  
 Basic Functionality (15 points):
 
@@ -29,11 +29,11 @@ Functions (10 points):
 
 Sensors (10 points):
 
-* [ 2 / 5 ] Read a sonar distance at least 5 times
-* [ 2 / 5 ] Robot behavior changes based on the sonar values
+* [ 5 / 5 ] Read a sonar distance at least 5 times
+* [ 5 / 5 ] Robot behavior changes based on the sonar values
 
 Loops/Recursion (15 points):
 
 * [ 10 / 10 ] Implements indefinite execusing using at least one while loop OR at least one recursive function call
-* [ 1 / 5 ] There is an option to terminate your indefinite execution
+* [ 5 / 5 ] There is an option to terminate your indefinite execution
 
